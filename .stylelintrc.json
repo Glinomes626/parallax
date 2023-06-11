@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recess-order"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["extend"]
+    }],
+    "custom-property-pattern": null,
+    "color-hex-case": "upper",
+    "selector-class-pattern": "^.*$",
+    "declaration-block-no-redundant-longhand-properties": [
+      true,
+      {
+        "ignoreShorthands": [
+          "/grid/"
+        ]
+      }
+    ]
+  }
+}
