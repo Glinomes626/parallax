@@ -4,11 +4,12 @@
   "description": "Webpack build",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "start": "cross-env NODE_ENV=development webpack serve --mode development",
     "stylint": "stylelint \"**/*.scss\" --fix",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "test": "npm run build && dir dist && path-exists dist bundle.zip"
   },
   "repository": {
