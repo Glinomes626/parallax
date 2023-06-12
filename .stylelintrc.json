@@ -11,7 +11,6 @@
       "ignoreAtRules": ["extend"]
     }],
     "custom-property-pattern": null,
-    "color-hex-case": "upper",
     "selector-class-pattern": "^.*$",
     "declaration-block-no-redundant-longhand-properties": [
       true,

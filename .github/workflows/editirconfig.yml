@@ -1,12 +1,13 @@
-name: Bundle
+name: EditorConfig
 
 on:
+  pull_request:
   push:
     branches:
       - main
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,4 +16,4 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - run: npm run bundle
+      - run: npm run editorconfig
