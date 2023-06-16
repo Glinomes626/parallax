@@ -9,7 +9,7 @@
     </a>
     <h1>webpack</h1>
     <p>
-        Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource         or asset.
+        Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource          or asset.
     </p>
     <h2 align="center">Install</h2>
 </div>
