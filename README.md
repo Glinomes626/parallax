@@ -19,7 +19,7 @@ Install with npm:
 ```bash
 npm install --save-dev webpack
 ```
-    
+
 Install with yarn:
 
 ```bash
