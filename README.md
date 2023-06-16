@@ -12,6 +12,7 @@
         Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource         or asset.
     </p>
     <h2 align="center">Install</h2>
+</div>
 
 Install with npm:
 
@@ -24,7 +25,6 @@ Install with yarn:
 ```bash
 yarn add webpack --dev
 ```
-</div>
 
 <h2 align="center">Introduction</h2>
 
@@ -48,4 +48,3 @@ Check out webpack's quick [**Get Started**](https://webpack.js.org/guides/gettin
 
 Webpack supports all browsers that are [ES5-compliant](https://kangax.github.io/compat-table/es5/) (IE8 and below are not supported).
 Webpack also needs `Promise` for `import()` and `require.ensure()`. If you want to support older browsers, you will need to [load a polyfill](https://webpack.js.org/guides/shimming/) before using these expressions.
-    
